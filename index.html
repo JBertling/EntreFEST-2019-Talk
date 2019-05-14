@@ -27,7 +27,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section id="title">
+				<section id="title" class="big-graph">
 					<h1>Informed Decision Making with Google Analytics</h1>
 					<p>Jess Bertling | @JBertling</p>
 				</section>
@@ -55,70 +55,193 @@
 					</div>				
 				</section>
 				<section id="why">
-					<h1>Why Are We Here?</h1>
-					<img src="/img/facts.gif" />
-				</section>
-				<section id="why-2">
-					<p>Metrics ground our assumptions in facts, and allow us to verify and form new ones.</p>
-					<p>Measure our progress towards goals and new new goals rooted in what's real.</p>
-					<p>Validate the vision.</p>
-					<p>Helps to remove some bias and ego from decision making process.</p>
-					<p>Informed decisions, identify trends and patterns, problem areas, next steps.</p>
-					<p>Funding! Many VC's want to know real numbers to better understand your customer engagement including growth loops, acquisition, churn, and revenue.</p>
-					<p>
-						Is it better to build 10 features where you don’t know what worked and what didn’t, or is it better to build LESS features but have a clear sense for what and why something worked? 
-					</p>
+					<section class="tiny-graph">
+						<img src="/img/facts.gif" style="width: 100%; border: none; box-shadow: none;" />
+					</section>
+					<section class="tiny-graph">
+						<h1>Informed Decisions</h1>
+						<ul>
+							<li>Removes some bias and ego</li>
+							<li>Make our goals tangible, and therefore measurable</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Identify Trends and patterns</h1>
+						<ul>
+							<li>Validate the vision</li>
+							<li>Guide and ground our assumptions</li>
+							<li>Show your problem areas and growth oppotunities</li>
+							<li>(Remember companies will always make some wrong decisions, just don't make them again tomorrow)</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Get Money</h1>
+						<div style="margin-bottom: 10px">
+							<img src="/img/bugs.gif" style="max-height: 15vh;" />
+						</div>
+						<ul>
+							<li>Revenue</li>
+							<li>Funding! Investors want to understand your business</li>
+						</ul>
+					</section>
 				</section>
 				<section id="terminology">
-					<h1>Terminology</h1>
-					<dl>
-						<dt>Session</dt>
-						<dd>Single visit, 1 or more pages, up to 30 minutes (Google Analytics default)</dd>
-						<dt>Landing Page</dt>
-						<dd>The page the user enters your site</dd>
-						<dt>Channel</dt>
-						<dd>Combines source + medium. Organic, Paid, Social, Email</dd>
-						<dt>Bounce</dt>
-						<dd>User session only contains a single page view</dd>
-						<dt>Exit</dt>
-						<dd>For all pageviews, the percentage that were the last in the session.</dd>
-						<dt>Segment</dt>
-						<dd>A subset of users</dd>
-						<dt>Conversion</dt>
-						<dd>Completed Activity</dd>
-					</dl>
+					<section class="big-graph">
+						<h1>Clarifying Terminology</h1>
+					</section>
+					<section class="tiny-graph">
+						<dl>
+							<dt>Session</dt>
+							<dd>Single visit, 1 or more pages, up to 30 minutes (Google Analytics default)</dd>
+							<dt>Landing Page</dt>
+							<dd>The page the user enters your site</dd>
+							<dt>Channel</dt>
+							<dd>Combines source + medium. Organic, Paid, Social, Email</dd>
+							<dt>Segment</dt>
+							<dd>A subset of users</dd>
+							<dt>Conversion</dt>
+							<dd>Completed Activity</dd>
+						</dl>
+					</section>
+					<section class="tiny-graph">
+						<h1>Bounce vs. Exit</h1>
+						<dl>
+							<dt>Bounce</dt>
+							<dd>User session only contains a single page view</dd>
+							<dt>Exit</dt>
+							<dd>For all pageviews, the percentage that were the last in the session.</dd>
+						</dl>	
+					</section>
+					<section class="tiny-graph">
+						<table style="font-size: 24px;">
+							<thead>
+								<tr>
+									<th></th>
+									<th></th>
+									<th>
+										Page
+									</th>
+									<th>
+										Bounce Rate
+									</th>
+									<th>
+										Exit Rate
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Home > Product > Cart > Exit</td>
+									<td style="width: 100px;"></td>
+									<td>Home</td>
+									<td>0%</td>
+									<td>50%</td>
+								</tr>
+								<tr>
+									<td>Product > Exit</td>
+									<td></td>
+									<td>Product</td>
+									<td>33%</td>
+									<td>33%</td>
+								</tr>
+								<tr>
+									<td>Product > Home > Exit</td>
+									<td></td>
+									<td>Cart</td>
+									<td>0%</td>
+									<td>100%</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
 				</section>
-				<section id="demo-1">
-					<h1>Demo!</h1>
+				<section id="demo-1" class="big-graph">
+					<img src="/img/tina.gif" style="width: 100%;" />
 				</section>
-				<section id="types-metrics">
+				<section class="big-graph">
 					<h1>Types of Metrics</h1>
-					<p>Engagement</p>
-					<p>
-						Better engagement = more set up for growth later
-					</p>
-					<p>
-						Learn more about your users, your demographic, your technology habits
-					</p>
-					<p>
-						User validation and product/market fit
-					</p>
-					<p>Growth</p>
-					<p>
-						Conversion rate, Email Sign Ups, Returning Users, DAU/MAU
-					</p>
-					<p>
-						Focus on the most important metric for right now, while watching for glaring red flags
-					</p>
-					<p>Benefit</p>
-					<p>Rather than optimize for inward analytics, optimize for what your customer is measuring. "Measure the lives you save, not the life preservers you sell" - Andrew Chen</p>
-					<p>
-						Operational vs Investigative
-					</p>
+					<ul>
+						<li>Vanity Metrics</li>
+						<li>Engagement</li>
+						<li>Growth</li>
+						<li>Benefit</li>
+					</ul>
+				</section>
+				<section class="big-graph">
+					<h1>The metrics you care about should be a reflection of your strategy.</h1>
+				</section>
+				<section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Vanity &mdash; BEWARE</h2>
+						<p>Look good on paper, but not actionable</p>
+						<img src="img/trap.gif" style="width: 100%;" />
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Engagement</h2>
+						<ul>
+							<li>Extremely important for early stage startups</li>
+							<li>User validation and product/market fit</li>
+							<li>Learn more about your users, your demographic, your technology habits</li>
+							<li>Better engagement = more set up for growth later</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Engagement</h2>
+						<ul>
+							<li>Returning Users</li>
+							<li>Number of Downloads</li>
+							<li>Mailing Signups</li>
+							<li>Session Length &amp; Interval</li>
+							<li>Acquisition &amp; Referral</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Growth</h2>
+						<ul>
+							<li>HOT Topic, but not always the right thing to watch</li>
+							<li>Focus on the most important metric for right now, while watching for glaring red flags</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Growth</h2>
+						<ul>
+							<li>Conversion Rate</li>
+							<li>Revenue - MRR/ARR</li>
+							<li>Churn</li>
+							<li>Lifetime Customer Value</li>
+							<li>Cost to Acquire Customer</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Benefit</h2>
+						<h5>Another, very UX focused, way of thinking</h5>
+						<ul>
+							<li>Rather than optimize for inward analytics, optimize for what your customer is measuring</li>
+							<li>"Measure the lives you save, not the life preservers you sell" - Andrew Chen</li>
+						</ul>
+					</section>
+					<section class="tiny-graph">
+						<h1>Types of Metrics</h1>
+						<h2>Operational vs Investigative</h2>
+						<ul>
+							<li>Operational = Task or Goal at hand</li>
+							<li>Investigative = Curiosity, trends</li>
+						</ul>
+					</section>
+				</section>
+				<section class="big-graph">
+					<h1>Pro Tip</h1>
+					<p>Best to measure the rate of change, not the totals.</p>
+					<p>Totals should always go up, but the rate of change will vary.</p>
 				</section>
 				<section id="lean-analytics">
 					<h1>LEAN into it</h1>
-					<h2>The metrics you care about should be a reflection of your strategy.</h2>
 					<p>
 						More data != Better
 					</p>
@@ -161,26 +284,40 @@
 						
 				</section>
 				<section id="dos-and-donts">
-					<h1>Do's and Don'ts</h1>
-					<p>
-						Success Theatre
-					</p>
-					<p>
-						Mimick others strategy if the goals aren't the same
-					</p>
-					<p>
-						Long term and short term goals (balance)
-					</p>
-					<p>
-						Don't spend time on numbers and reports you'll never use
-					</p>
+					<section class="big-graph">
+						<h1>Things To Avoid</h1>
+						<ul>
+							<li>Success Theatre with Vanity Metrics</li>
+							<li>Mimicking other strategy when your goals aren't the same</li>
+							<li>Spending time on numbers and reports you'll never use</li>
+						</ul>
+					</section>
 				</section>
 				<section id="discouraged">
-					<h1>Terrible Metrics Are NORMAL</h1>
-					<h2>It's actually common for:</h2>
-					<p>Signup rates to be below 1%.</p>
-					<p>Over 95% of your users to be inactive today.</p>
-					<p>Over half of users don't know anyone else that uses the service.</p>
+					<section class="tiny-graph">
+						<h3>Most people when they look at their data</h3>
+						<img src="/img/michael.gif" style="width: 100%;" />
+					</section>
+					<section class="big-graph">
+						<h1>"Terrible" Metrics Are NORMAL</h1>
+					</section>
+					<section class="tiny-graph">
+						<h1>"Terrible" Metrics Are NORMAL</h1>
+						<h2>It's actually common for</h2>
+						<ul>
+							<li>Signup rates to be below 1%</li>
+							<li>Over 95% of your users to be inactive today</li>
+							<li>Lonely hearts club for your users: Over half won't know anyone else</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section class="big-graph">
+						<h1>All of this takes time, but what's Better?</h1>
+						<p>
+							building 10 features where you don’t know what worked and what didn’t, or building <strong>less</strong> features but have a clear sense for what and why something worked? 
+						</p>
+					</section>
 				</section>
 			</div>
 		</div>
