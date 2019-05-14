@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: none;
   background-position: center center; 
-  background-image: url("/img/tiny-graph.png");
+  background-image: url("img/tiny-graph.png");
  }
 
 .reveal {
@@ -37,14 +37,14 @@ body {
   background-size: cover;
   background-repeat: none;
   background-position: bottom center; 
-  background-image: url("/img/half-graph.png");
+  background-image: url("img/half-graph.png");
 }
 
 .reveal .backgrounds .big-graph {
   background-size: cover;
   background-repeat: none;
   background-position: center center;
-  background-image: url("/img/big-graph.png");
+  background-image: url("img/big-graph.png");
 }
 
 .big-graph {
